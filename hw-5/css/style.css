@@ -1,0 +1,106 @@
+.block {
+	font-size: 20px;
+	width: 300px;
+	height: 180px;
+	text-align: center;
+	margin: 100px 0 0 115px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: rgb(58, 85, 76);
+	line-height: 25px;
+	background: url(../images/icons8-beryllium-64.png) no-repeat 2px 106px;
+	padding: 32px;
+}
+
+.block-1 {
+	background: url(../images/ramka8.png) no-repeat 50px 50px;
+	width: 87px;
+	height: 308px;
+	margin: -318px 0 0 0;
+	mix-blend-mode: multiply;
+}
+
+
+.block-2 {
+	background: url(../images/ramka7.png) no-repeat 50px 50px;
+	width: 136px;
+	height: 136px;
+	margin: -300px 0 0 0px;
+	mix-blend-mode: multiply;
+}
+
+
+.block-3 {
+	background: url(../images/ramka1.png) no-repeat;
+	width: 355px;
+	height: 42px;
+	margin: -86px 0 0 136px;
+	mix-blend-mode: multiply;
+}
+
+
+.block-4 {
+	background: url(../images/ramka2.png) no-repeat;
+	width: 355px;
+	height: 98px;
+	margin: -42px 0 0 392px;
+	mix-blend-mode: multiply;
+}
+
+
+.block-5 {
+	background: url(../images/ramka4.png) no-repeat;
+	width: 37px;
+	height: 154px;
+	margin: 0px 0 0 449px;
+	mix-blend-mode: multiply;
+}
+
+
+.block-6 {
+	background: url(../images/ramka3.png) no-repeat;
+	width: 93px;
+	height: 97px;
+	margin: 0px 0 0 393px;
+	mix-blend-mode: multiply;
+}
+
+
+.block-7 {
+	background: url(../images/ramka5.png) no-repeat;
+	width: 256px;
+	height: 37px;
+	margin: -37px 0 0 138px;
+	mix-blend-mode: multiply;
+}
+
+
+.block-8 {
+	background: url(../images/ramka6.png) no-repeat;
+	width: 88px;
+	height: 107px;
+	margin: -100px 0 0 50px;
+	mix-blend-mode: multiply;
+}
+
+
+body {
+	background: url(../images/background11.png) no-repeat;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	border-radius: 18px;
+	background-color: rgb(234, 182, 182);
+	padding: 2px 7px;
+	color: white;
+	box-shadow: 0px 5px 5px #000;
+}
+
+a:hover {
+	background-color: rgb(255, 0, 0);
+}
+
+a:active {
+	background-color: rgb(0, 255, 0);
+}
