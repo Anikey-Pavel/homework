@@ -1,0 +1,75 @@
+.sprite-1 {
+	width: 100px;
+	height: 100px;
+	background: url(../Fonts/ramka.png) no-repeat;
+	background-position: 0px 0px;
+	margin: 0 0 0 0;
+}
+
+.sprite-2 {
+	width: 251px;
+	height: 39px;
+	background: url(../Fonts/ramka.png) no-repeat;
+	background-position: -97px 0px;
+	margin: -100px 0 0 100px;
+}
+
+.sprite-3 {
+	width: 99px;
+	height: 100px;
+	background: url(../Fonts/ramka.png) no-repeat;
+	background-position: -346px 0px;
+	margin: -39px 0 0 351px;
+}
+
+.sprite-4 {
+	width: 101px;
+	height: 160px;
+	background: url(../Fonts/ramka.png) no-repeat;
+	background-position: -343px -97px;
+	margin: 0px 0 0 349px;
+}
+
+.sprite-5 {
+	width: 101px;
+	height: 100px;
+	background: url(../Fonts/ramka.png) no-repeat;
+	background-position: -343px -255px;
+	margin: 0px 0 0 349px;
+}
+
+.sprite-6 {
+	width: 256px;
+	height: 93px;
+	background: url(../Fonts/ramka.png) no-repeat;
+	background-position: -94px -264px;
+	margin: -91px 0 0 93px;
+}
+
+.sprite-7 {
+	width: 163px;
+	height: 159px;
+	background: url(../Fonts/ramka.png) no-repeat;
+	background-position: 126px -97px;
+	margin: -262px 0 0 -126px;
+}
+
+.sprite-8 {
+	width: 218px;
+	height: 159px;
+	background: url(../Fonts/ramka.png) no-repeat;
+	background-position: 125px -254px;
+	margin: 0px 0 0 -125px;
+}
+
+
+.sprite {
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	top: 97px;
+	right: 0;
+	left: 134px;
+	bottom: 0;
+	font-size: 17px;
+}
