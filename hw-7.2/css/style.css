@@ -1,0 +1,96 @@
+.content {
+	width: 100%;
+}
+
+.content-header {
+	text-align: center;
+	background-color: grey;
+	border-radius: 30px;
+}
+
+.content-header__yellow {
+	font-size: 50px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: yellow;
+}
+
+.content-header__white {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+.content-list {
+	list-style-type: none;
+	display: flex;
+	background-color: white;
+	border: 2px solid black;
+}
+
+.content-list li {
+	padding: 0 0 0 170px;
+}
+
+.content-list a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.content-body {
+	display: flex;
+}
+
+.content-left {
+	background-color: grey;
+	text-align: center;
+	border-radius: 30px;
+}
+
+.content-left h1 {
+	color: yellow;
+}
+
+.content-left h2 {
+	color: white;
+}
+
+.content-center {
+	text-align: center;
+	border-radius: 30px;
+	background-color: antiquewhite;
+	margin: 0 30px;
+}
+
+.content-center img {
+	width: 150px;
+	height: 150px;
+	float: right;
+}
+
+.content-center h1 {
+	color: red;
+}
+
+.content-right {
+	background-color: grey;
+	text-align: center;
+	border-radius: 30px;
+}
+
+.content-right h1 {
+	color: yellow;
+}
+
+.content-right h2 {
+	color: white;
+}
+
+.content-bottom {
+	font-size: 10px;
+	text-align: center;
+}
+
+body {
+	background-color: rgb(182, 255, 231);
+}
