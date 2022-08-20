@@ -1,0 +1,23 @@
+span {
+	background: url(../images/star0.png) no-repeat;
+	width: 76px;
+	height: 78px;
+}
+
+div {
+	display: flex;
+	flex-direction: row-reverse;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div :hover {
+	background: url(../images/star1.png) no-repeat;
+	width: 76px;
+	height: 78px;
+}
+
+div span:hover~span::before {
+	content: url('../images/star1.png');
+}
