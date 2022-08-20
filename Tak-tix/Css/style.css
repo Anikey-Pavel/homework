@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Aboreto-Regular';
+	src: url(../Fonts/Aboreto-Regular.ttf);
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+table {
+	border-collapse: collapse;
+	overflow: hidden;
+}
+
+div {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 255, 0.736);
+	margin: 0 auto;
+}
+
+div:hover {
+	background-color: black;
+}
+
+tr:hover {
+	background-color: rgb(255, 230, 199);
+}
+
+td {
+	position: relative;
+}
+
+td:hover::before {
+	content: '';
+	/* Добавляем псевдоколонку */
+	background: rgb(255, 230, 199);
+	/* Цвет фона */
+	position: absolute;
+	/* Абсолютное позиционирование */
+	height: 2000px;
+	/* Высота колонки */
+	width: 100%;
+	/* Ширина колонки */
+	left: 0;
+	/* Положение от левого края */
+	top: -1000px;
+	/* Положение от верхнего края */
+	z-index: -1;
+	/* Располагаем ниже текста ячейки */
+}
+
+thead {
+	background-color: white;
+	pointer-events: none;
+}
+
+p {
+	font-size: 25px;
+	font-family: Aboreto-Regular;
+	box-shadow: 1px 1px 5px black;
+	border: 1px solid black;
+	border-radius: 25px;
+	letter-spacing: 10px;
+}
