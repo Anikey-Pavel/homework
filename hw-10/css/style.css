@@ -1,0 +1,282 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+body {
+	background-color: beige;
+	font-family: 'Montserrat';
+}
+
+div {
+	margin: 0 0 20px 0;
+}
+
+form {
+	text-align: center;
+}
+
+input[name="username"] {
+	border-color: rgb(255, 209, 152);
+	border-radius: 5px;
+	width: 230px;
+	height: 35px;
+	outline: none;
+
+}
+
+
+input[name="username"]:invalid {
+	border: 2px solid red;
+}
+
+input[name="username"]:not(:focus):invalid {
+	border-color: rgb(255, 209, 152);
+}
+
+input[name="username"]:valid {
+	border: 2px solid green;
+}
+
+input[name="username2"] {
+	border-color: rgb(255, 209, 152);
+	margin: 0 0 0 2px;
+	border-radius: 5px;
+	width: 230px;
+	height: 35px;
+	outline: none;
+
+}
+
+input[name="username2"]:invalid {
+	border: 2px solid red;
+}
+
+input[name="username2"]:not(:focus):invalid {
+	border-color: rgb(255, 209, 152);
+}
+
+input[name="username2"]:valid {
+	border: 2px solid green;
+}
+
+input[name="age"] {
+	margin: 0 0 0 57px;
+	border-color: rgb(255, 209, 152);
+	border-radius: 5px;
+	width: 230px;
+	height: 35px;
+	outline: none;
+}
+
+input[name="age"]:invalid {
+	border: 2px solid red;
+}
+
+input[name="age"]:not(:focus):invalid {
+	border-color: rgb(255, 209, 152);
+}
+
+input[name="age"]:valid {
+	border: 2px solid green;
+}
+
+input[name="email"] {
+	margin: 0 0 0 36px;
+	border-color: rgb(255, 209, 152);
+	border-radius: 5px;
+	width: 230px;
+	height: 35px;
+	outline: none;
+
+}
+
+input[name="email"]:invalid {
+	border: 2px solid red;
+}
+
+input[name="email"]:not(:focus):invalid {
+	border-color: rgb(255, 209, 152);
+}
+
+input[name="email"]:valid {
+	border: 2px solid green;
+}
+
+input[name="userpass"] {
+	margin: 0 0 0 10px;
+	border-color: rgb(255, 209, 152);
+	border-radius: 5px;
+	width: 230px;
+	height: 35px;
+	outline: none;
+
+}
+
+input[name="userpass"]:invalid {
+	border: 2px solid red;
+}
+
+input[name="userpass"]:not(:focus):invalid {
+	border-color: rgb(255, 209, 152);
+}
+
+input[name="userpass"]:valid {
+	border: 2px solid green;
+}
+
+
+button[type="submit"] {
+	background-color: bisque;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	box-shadow: 0 3px 1px rgb(53, 48, 41);
+	position: relative;
+	top: 0;
+}
+
+button[type="submit"]:hover {
+	background-color: rgb(184, 169, 146);
+	transition: background-color 0.3s linear;
+}
+
+button[type="submit"]:active {
+	top: 3px;
+	box-shadow: 0 1px 1px rgb(53, 48, 41);
+}
+
+button[type="reset"] {
+	background-color: bisque;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 0 0 0 3px;
+	box-shadow: 0 3px 1px rgb(53, 48, 41);
+	position: relative;
+	top: 0;
+}
+
+button[type="reset"]:hover {
+	background-color: rgb(184, 169, 146);
+	transition: background-color 0.3s linear;
+}
+
+button[type="reset"]:active {
+	top: 3px;
+	box-shadow: 0 1px 1px rgb(53, 48, 41);
+}
+
+
+.submit {
+	background: url(../images/1491254399-rightarrowfowardsign_82944.png) right no-repeat;
+	display: inline-block;
+	padding: 0 40px 0 0;
+}
+
+.reset {
+	background: url(../images/refreshtwocounterclockwisecirculararrowsinterfacesymbol_79835.png) right no-repeat;
+	display: inline-block;
+	padding: 5px 40px 5px 0;
+}
+
+.radio {
+	position: relative;
+}
+
+.radio__input {
+	appearance: none;
+	position: absolute;
+}
+
+.radio__label {
+	padding-left: 25px;
+	cursor: pointer;
+}
+
+.radio__label::before {
+	content: '';
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 1px solid black;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+.radio__label::after {
+	content: '';
+	display: block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 2.5px;
+	left: 3px;
+	background-color: bisque;
+	border: 1px solid black;
+	border-radius: 4px;
+	opacity: 0;
+	transition: opacity 0.3s linear;
+	z-index: 2;
+}
+
+.radio__input:checked+.radio__label:after {
+	opacity: 1;
+	transition: opacity .1s ease 0s;
+}
+
+
+.checkbox {
+	position: relative;
+}
+
+.checkbox__input {
+	display: none;
+}
+
+.checkbox__label {
+	font-size: 24px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding-left: 50px;
+	cursor: pointer;
+}
+
+.checkbox__label::before {
+	content: '';
+	display: block;
+	width: 40px;
+	height: 20px;
+	border-radius: 15px;
+	background-color: grey;
+	box-shadow: 1px 1px 3px grey;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.checkbox__label::after {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: white;
+	/*box-shadow: 1px 1px 3px grey;*/
+	position: absolute;
+	top: 0px;
+	left: 0;
+	transition: .2s linear;
+}
+
+.checkbox__input:checked+.checkbox__label::before {
+	background-color: bisque;
+}
+
+.checkbox__input:checked+.checkbox__label::after {
+	background-color: white;
+	left: 20px;
+	transition: .2s linear;
+}

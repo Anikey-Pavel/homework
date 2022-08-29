@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Form</title>
+</head>
+
+<body>
+	<form action="#" method="get">
+		<h1>Registration Form</h1>
+		<div>
+			<label for="username">
+				First name:
+				<input type="text" name="username" value="" placeholder="Username" required pattern="[а-яА-Я]+"
+					title="Только русские буквы нижнего либо верхнего регистра">
+			</label>
+		</div>
+		<div>
+			<label for="username2">
+				Last name:
+				<input type="text" name="username2" value="" placeholder="Username" required pattern="[а-яА-Я]+"
+					title="Только русские буквы нижнего либо верхнего регистра">
+			</label>
+		</div>
+		<div>
+			<label for="age">
+				Age:
+				<input type="tel" name="age" value="" placeholder="Age" required>
+			</label>
+		</div>
+		<div>
+			<label for="email">
+				E-mail:
+				<input type="email" name="email" value="" placeholder="E-mail" required>
+			</label>
+		</div>
+		<div>
+			<label for="userpass">
+				Password:
+				<input type="password" name="userpass" value="" placeholder="Password" required minlength="8"
+					maxlength="120">
+			</label>
+		</div>
+		<div>
+			<label for="sex">
+				Sex::
+				<span class="radio">
+					<input checked class="radio__input" type="radio" name="1" id="radio_1">
+					<label class="radio__label" for="radio_1">Male</label>
+				</span>
+				<span class="radio">
+					<input class="radio__input" type="radio" name="1" id="radio_2">
+					<label class="radio__label" for="radio_2">Female</label>
+				</span>
+			</label>
+		</div>
+		<div>
+			<label for="checkbox">
+				Checkbox:
+				<span class="checkbox">
+					<input checked class="checkbox__input" type="checkbox" id="checkbox-1">
+					<label class="checkbox__label" for="checkbox-1">I am a student</label>
+				</span>
+				<span class="checkbox">
+					<input class="checkbox__input" type="checkbox" id="checkbox-2">
+					<label class="checkbox__label" for="checkbox-2">I am a business man</label>
+				</span>
+			</label>
+		</div>
+		<div>
+			<div>
+				<label for="calendar">
+					Birthday:
+				</label>
+			</div>
+			<input type="date" name="calendar" value="1990-01-01" max="2022-08-28" min="1990-01-01">
+		</div>
+		<div>
+			<label for="submit">
+				Submit button:
+				<button type="submit">
+					<span class="submit">Submit</span>
+				</button>
+			</label>
+		</div>
+		<div>
+			<label for="reset">
+				Reset button:
+				<button type="reset">
+					<span class="reset">Reset</span>
+				</button>
+			</label>
+		</div>
+	</form>
+</body>
+
+</html>
