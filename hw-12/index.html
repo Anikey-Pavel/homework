@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Form-flex</title>
+</head>
+
+<body>
+	<form action="#" method="get">
+		<header>Registration form</header>
+		<div class="flex">
+			<div class="flex_input">
+				<span>First name:</span>
+				<div>
+					<input type="text" placeholder="Имя" name="user">
+				</div>
+				<span>Last name:</span>
+				<div>
+					<input type="text" placeholder="Имя-2" name="user">
+				</div>
+				<span>Age:</span>
+				<div>
+					<input type="number" placeholder="Возрост" name="age">
+				</div>
+				<span>E-mail:</span>
+				<div>
+					<input type="email" placeholder="Почта" name="E-mail">
+				</div>
+				<span>Password:</span>
+				<div>
+					<input type="password" placeholder="Пароль" name="pass">
+				</div>
+			</div>
+			<div class="switch">
+				<div>
+					<span>SEX::</span>
+					<div>Male</div>
+					<div>
+						<input type="radio" name="gender" value="Male">
+					</div>
+					<div>Female</div>
+					<div>
+						<input type="radio" name="gender" value="Female">
+					</div>
+				</div>
+				<div>
+					<span>Checkbox:</span>
+					<div>I am a student</div>
+					<div>
+						<input type="checkbox" name="student">
+					</div>
+					<div>I am a business man</div>
+					<div>
+						<input type="checkbox" name="business">
+					</div>
+				</div>
+				<div>
+					<span>Birthday:</span>
+					<div>
+						<input type="date" name="Birthday">
+					</div>
+				</div>
+			</div>
+			<div class="button">
+				<div>
+					<span>Submit button</span>
+					<button class="submit" type="submit">Отправить</button>
+				</div>
+				<div>
+					<span>Reset button</span>
+					<button class="reset" type="reset">Обновить</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+
+</html>
