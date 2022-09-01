@@ -1,0 +1,75 @@
+body {
+	background-color: cadetblue;
+}
+
+
+.header {
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	position: fixed;
+	top: 0;
+}
+
+.image {
+	margin: auto;
+	position: relative;
+	top: 120px;
+	left: 0px;
+	width: 400px;
+	height: 400px;
+}
+
+.image-womanandman {
+	position: absolute;
+	top: 25px;
+	left: 190px;
+}
+
+.image-nosmoking {
+	position: absolute;
+	top: 65px;
+	left: 90px;
+}
+
+.image-yinandyang {
+	position: absolute;
+	top: 160px;
+	left: 125px;
+}
+
+.image-biohazard {
+	position: absolute;
+	top: 55px;
+	left: 40px;
+}
+
+.footer {
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	position: fixed;
+	bottom: 0;
+}
+
+.image-womanandman:hover {
+	z-index: 1;
+	transform: scale(1.3);
+	transition: 1s;
+}
+
+.image-nosmoking:hover {
+	z-index: 1;
+	transform: scale(1.2);
+	transition: 1s;
+}
+
+.image-yinandyang:hover {
+	z-index: 1;
+	transform: scale(1.3);
+	transition: 1s;
+}
+
+.image-biohazard:hover {
+	z-index: 1;
+	transform: scale(1.3);
+	transition: 1s;
+}
