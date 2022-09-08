@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+body {
+	font-family: 'Montserrat';
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-areas: "header header header""side content image""footer footer footer";
+	grid-template-rows: 50px 100% 50px;
+	grid-template-columns: 190px auto 100px;
+}
+
+.header {
+	grid-area: header;
+	background-color: rgb(74, 74, 210);
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	color: rgb(0, 0, 158);
+}
+
+.menu {
+	grid-area: side;
+	background-color: yellow;
+}
+
+.list {
+	display: grid;
+	grid-template-rows: 40px repeat(7, 30%);
+}
+
+.list li a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu__title {
+	font-weight: 700;
+}
+
+.content {
+	grid-area: content;
+}
+
+.image {
+	grid-area: image;
+	padding: 0;
+	margin: 0;
+	background: url(../images/52730soccerball_109390.png) repeat-y;
+	opacity: 0.4;
+}
+
+.content__title {
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0 0 0;
+	text-decoration: underline;
+}
+
+img {
+	float: left;
+	padding: 20px;
+}
+
+.content__text {
+	padding: 20px;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+
+.footer {
+	grid-area: footer;
+	background-color: rgb(74, 74, 210);
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	color: rgb(0, 0, 158);
+}
+
+@media screen and (max-width: 890px) {
+	.grid {
+		display: grid;
+		grid-template-areas: "content""side";
+		grid-template-rows: auto auto;
+		justify-content: center;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.image {
+		display: none;
+	}
+
+	.content__text {
+		clear: both;
+	}
+
+	.menu {
+		background-color: white;
+		grid-area: side;
+	}
+
+	.content {
+		grid-area: content;
+	}
+
+}
